@@ -1,6 +1,21 @@
 nav {
   text-align: center;
+}
 
-nav img {
+nav div img {
   text-align: center;
+}
+
+#site-logo {
+  display: block;
+}
+
+#nav-links-wrapper {
+  display: inline-flex;
+}
+
+#nav-links-wrapper div {
+  margin-right: 13px;
+  font-family: 'Merriweather', serif;
+  color: #4b4b4b;
 }

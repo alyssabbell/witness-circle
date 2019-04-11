@@ -4,7 +4,10 @@ body {
 
 nav {
   /* text-align: center; */
-  margin: 15px;
+  margin: 15px 50px;
+  /* position: fixed; */
+  background-color: white;
+  /* overflow: hidden; */
 }
 
 /* nav div img {
@@ -16,6 +19,7 @@ nav {
 #site-logo img {
   /* display: block; */
   width: 70%;
+
 }
 
 #nav-links-wrapper {
@@ -42,4 +46,17 @@ nav {
 
 .top-image {
   width: 100%;
+   /* position: relative; */
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #4b4b4b;
+}
+
+p {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #4b4b4b;
 }

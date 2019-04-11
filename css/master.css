@@ -1,21 +1,45 @@
+body {
+  margin: auto 0;
+}
+
 nav {
-  text-align: center;
+  /* text-align: center; */
+  margin: 15px;
 }
 
-nav div img {
-  text-align: center;
-}
+/* nav div img {
+   text-align: center;
+} */
 
-#site-logo {
-  display: block;
+
+
+#site-logo img {
+  /* display: block; */
+  width: 70%;
 }
 
 #nav-links-wrapper {
   display: inline-flex;
+  align-items: flex-end;
+  width: 100%;
 }
 
-#nav-links-wrapper div {
-  margin-right: 13px;
+/* controls the text links, not the logo */
+#flex-links-wrapper {
+  /* trying to align links to right but not working */
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav-link {
+  margin-right: 53px;
   font-family: 'Merriweather', serif;
+  font-size: 24px;
   color: #4b4b4b;
+
+}
+
+.top-image {
+  width: 100%;
 }

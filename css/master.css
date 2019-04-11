@@ -29,18 +29,20 @@ nav {
 }
 
 /* controls the text links, not the logo */
-#flex-links-wrapper {
+ #flex-links-wrapper {
   /* trying to align links to right but not working */
   display: inline-flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
-.nav-link {
-  margin-right: 53px;
+.nav-link, .nav-link a {
+  margin-left: 23px;
+  /* margin-right: auto; */
   font-family: 'Merriweather', serif;
   font-size: 24px;
   color: #4b4b4b;
+  text-decoration: none;
 
 }
 
@@ -55,7 +57,9 @@ h2 {
   color: #4b4b4b;
 }
 
-p {
+/* select p tags that come after h3 */
+h3, h3 + p {
+  margin: 30px 15px;
   text-align: center;
   font-family: 'Merriweather', serif;
   color: #4b4b4b;

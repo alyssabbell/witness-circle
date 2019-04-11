@@ -41,7 +41,7 @@ nav {
   /* margin-right: auto; */
   font-family: 'Merriweather', serif;
   font-size: 24px;
-  color: #4b4b4b;
+  color: #d8a475;
   text-decoration: none;
 
 }
@@ -49,6 +49,7 @@ nav {
 .top-image {
   width: 100%;
    /* position: relative; */
+   opacity: 0.6;
 }
 
 h2 {
@@ -59,7 +60,7 @@ h2 {
 
 /* select p tags that come after h3 */
 h3, h3 + p {
-  margin: 30px 15px;
+  margin: 30px 35px;
   text-align: center;
   font-family: 'Merriweather', serif;
   color: #4b4b4b;

@@ -1,5 +1,6 @@
 body {
   margin: auto 0;
+  line-height: 1.5em;
 }
 
 nav {
@@ -67,18 +68,6 @@ h3, h3 + p {
   color: #4b4b4b;
 }
 
-/* #white-square-wrapper {
-  display: block;
-  text-align: center;
-  margin: auto 0;
+li:nth-child(even) {
+  margin-bottom: 10px;
 }
-
-.white-square {
-  margin: auto 0;
-  width: 90%;
-  border-radius: 6px;
-  background-color: white;
-  padding: 5px;
-  text-align: center;
-
-} */

@@ -42,7 +42,7 @@ nav {
   /* margin-right: auto; */
   font-family: 'Merriweather', serif;
   font-size: 24px;
-  color: #d8a475;
+  color: #BE854C;
   text-decoration: none;
 
 }
@@ -66,3 +66,19 @@ h3, h3 + p {
   font-family: 'Merriweather', serif;
   color: #4b4b4b;
 }
+
+/* #white-square-wrapper {
+  display: block;
+  text-align: center;
+  margin: auto 0;
+}
+
+.white-square {
+  margin: auto 0;
+  width: 90%;
+  border-radius: 6px;
+  background-color: white;
+  padding: 5px;
+  text-align: center;
+
+} */

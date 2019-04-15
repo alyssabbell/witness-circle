@@ -5,7 +5,8 @@ body {
 
 nav {
   /* text-align: center; */
-  margin: 15px 50px;
+  margin: 35px 50px 10px 50px;
+
   /* position: fixed; */
   background-color: white;
   /* overflow: hidden; */
@@ -15,45 +16,40 @@ nav {
    text-align: center;
 } */
 
-
-
-#site-logo img {
-  /* display: block; */
-  /* width: 70%; */
-
-}
-
 #nav-links-wrapper {
   display: inline-flex;
   align-items: flex-end;
   width: 100%;
-}
-
-/* controls the text links, not the logo */
- #flex-links-wrapper {
-  /* trying to align links to right but not working */
-  margin-bottom: 21px;
-  display: inline-flex;
-  flex-direction: row;
   justify-content: flex-end;
 }
 
-.nav-link, .nav-link a {
+/* controls the text links, not the logo */
+/* #flex-links-wrapper {
+  /* trying to align links to right but not working */
+  /* margin-bottom: 21px;
+  display: inline-flex;
+  flex-direction: row;
+} */
+
+/* #flex-link-wrapper .nav */
+
+/* .nav-link, .nav-link a { */
+a.nav-link {
+  margin-bottom: 19px;
   margin-left: 23px;
   /* margin-right: auto; */
   font-family: 'Merriweather', serif;
   font-size: 24px;
   color: #BE854C;
   text-decoration: none;
-  margin-bottom: 5px;
-
 }
 
+/*
 .top-image {
   width: 100%;
    /* position: relative; */
-   opacity: 0.6;
-}
+   /*opacity: 0.6;
+} */
 
 h2 {
   text-align: center;
@@ -155,10 +151,24 @@ slide p {
   30% {left: -100%; width: 100%;}
   30.0001% {left: -100%; width: 0%;}
   100% { left: 100%; width: 0%;}
-
 }
 
 #info-wrapper {
   padding-top: 50%;
   position: static;
+}
+
+#about-wrapper {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  padding: 25px;
+}
+
+#about-section {
+
+}
+
+#about-pic {
+  align-self: flex-end;
+  margin-left: 25px;
 }
